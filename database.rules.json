@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "images": {
+      "$image": {
+        "url": {
+          ".read": "true",
+          ".write": "false"
+        },
+        "id": {
+          ".read": "true",
+          ".write": "false"
+        },
+        "wins": {
+          ".validate": "!data.exists() || newData.val() < data.val() + 10"
+        },
+        "losses": {
+          ".validate": "!data.exists() || newData.val() < data.val() + 10"
+        }
+      }
+    },
+    ".read": "true",
+    ".write": "true"
+  }
+}
