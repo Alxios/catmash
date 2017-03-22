@@ -12,7 +12,7 @@
       <tr v-for="({id, url, wins, losses}, i) in orderByRank">
         <th scope="row">{{ i }}</th>
         <td>
-          <div class="d-flex mr-2 image-64" :style="backgroundImage(url)" alt="id"></div>
+          <div class="d-flex mr-2 image-64" :style="backgroundImage(url)" :alt="id"></div>
         </td>
         <td>{{ wins || 0 }}</td>
         <td>{{ losses || 0 }}</td>
