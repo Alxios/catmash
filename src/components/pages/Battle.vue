@@ -1,13 +1,13 @@
 <template>
   <div class="row align-items-center full-height" v-if="currentBattle">
 
-    <div class="col">
+    <div class="col-12 col-md">
       <concurrent :image="currentBattle.first" @select="select"></concurrent>
     </div>
 
-    <div class="secondary-text center">OR</div>
+    <div class="col-12 col-md-1 secondary-text center">OR</div>
 
-    <div class="col">
+    <div class="col-12 col-md">
       <concurrent :image="currentBattle.second" @select="select"></concurrent>
     </div>
 

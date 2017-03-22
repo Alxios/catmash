@@ -47,6 +47,7 @@ html, body {
   text-align: center;
   display: inline-block;
   padding: 8px;
+  margin: 15px;
   text-decoration: none;
   font-weight: 500;
   background: rgb(3,155,229);
