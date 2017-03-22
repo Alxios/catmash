@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+DEMO: https://catmash-1c701.firebaseapp.com/
+
 ## Build Setup
 
 ``` bash
